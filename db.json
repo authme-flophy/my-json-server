@@ -1,0 +1,55 @@
+{
+  "schools": [
+    {
+      "id": "147c",
+      "name": "Wileyce Preparatory School",
+      "type": "primary",
+      "product": "Zeraki Timetable",
+      "county": "Nairobi",
+      "phone": "01234567890",
+      "email": "info@wileyce.com",
+      "total": 20000,
+      "registrationDate": "2024-05-30"
+    },
+    {
+      "id": "3f90",
+      "name": "SteveLee Secondary School",
+      "type": "secondary",
+      "product": "Zeraki Finance",
+      "county": "Nairobi",
+      "phone": "01234567890",
+      "email": "info@stevelee.com",
+      "total": 10000,
+      "registrationDate": "2024-05-30"
+    }
+  ],
+  "invoices": [
+    {
+      "id": "a00b",
+      "schoolId": "147c",
+      "invoiceNumber": "INV124",
+      "product": "Zeraki Timetable",
+      "amount": 10000,
+      "paidAmount": 0,
+      "balance": 10000,
+      "dueDate": "2024-06-06",
+      "creationDate": "2024-05-30",
+      "status": "Pending",
+      "daysUntilDue": 7
+    },
+    {
+      "id": "0209",
+      "schoolId": "147c",
+      "invoiceNumber": "INV123",
+      "product": "Zeraki Analytics",
+      "amount": 10000,
+      "paidAmount": 0,
+      "balance": 10000,
+      "dueDate": "2024-05-16",
+      "creationDate": "2024-05-30",
+      "status": "Pending",
+      "daysUntilDue": -14
+    }
+  ],
+  "collections": []
+}
